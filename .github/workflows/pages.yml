@@ -1,38 +1,52 @@
-# The repository publishes the pre-built site/ directory.
+# Publishes the pre-built site/ directory to GitHub Pages.
 #
-# tools/ is not uploaded, so this workflow does not build anything: regenerate
+# tools/ is not part of this repository, so nothing is built here: regenerate
 # the site locally before pushing, with
 #
 #     python tools/validate.py && python tools/build.py
 #
-# and commit the updated site/ alongside data/papers.json.
+# and commit the updated site/ alongside data/papers.json. A push that only
+# changes data/ will deploy the previous build.
 name: Deploy static site
+
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: pages
   cancel-in-progress: true
+
 jobs:
-  site:
+  deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      # enablement: true turns Pages on with the GitHub Actions build type if
+      # the repository has not enabled it yet, so the first push succeeds on
+      # its own. Without it the step fails on a repository whose Pages source
+      # has never been set.
       - name: Configure Pages
-        if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
-      - name: Upload Pages artifact
-        if: github.event_name != 'pull_request'
+        with:
+          enablement: true
+
+      - name: Upload the site directory
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
-      - name: Deploy
-        if: github.event_name != 'pull_request'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
