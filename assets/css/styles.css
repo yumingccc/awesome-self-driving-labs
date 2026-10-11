@@ -258,3 +258,10 @@ body{font-size:16px;}
 .paper-card-compact .topic-row{margin-bottom:11px;}
 @media(max-width:760px){.paper-card .topic-row{margin-bottom:10px;}}
 .paper-card .topic,.paper-card-compact .topic{font-size:11px;font-weight:650;padding:4px 8px;letter-spacing:.1px;}
+
+/* Repository link sitting immediately after the site name in the header. */
+.brand-group{display:flex;align-items:center;gap:9px}
+.brand-repo{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:6px;color:#8ba094;transition:color .18s,background .18s}
+.brand-repo:hover{color:var(--accent);background:#e9f0e9}
+.brand-repo .ico{width:17px;height:17px}
+@media(max-width:760px){.brand-group{gap:6px}.brand-repo{width:26px;height:26px}.brand-repo .ico{width:16px;height:16px}}
