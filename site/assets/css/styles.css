@@ -265,3 +265,8 @@ body{font-size:16px;}
 .brand-repo:hover{color:var(--accent);background:#e9f0e9}
 .brand-repo .ico{width:17px;height:17px}
 @media(max-width:760px){.brand-group{gap:6px}.brand-repo{width:26px;height:26px}.brand-repo .ico{width:16px;height:16px}}
+
+/* Five-star research value scale: slightly smaller stars so the badge keeps its width. */
+.value-stars{gap:1.5px;padding:4px 7px}
+.star-svg{width:13px;height:13px}
+@media(max-width:760px){.star-svg{width:12px;height:12px}}

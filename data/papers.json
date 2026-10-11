@@ -143,7 +143,7 @@
     "curation_note": "PRX Intelligence 1, 013019 (2026). The arXiv version 2601.08185 (2026-01-13) carries the earlier title 'Autonomous Materials Exploration by Integrating Automated Phase Identification and AI-Assisted Human Reasoning'.",
     "related": [],
     "method_label": "SARA-H",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1103/c362-349b",
     "link_audit": "reviewed"
   },
@@ -251,7 +251,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41578-026-00953-z",
     "link_audit": "pending"
   },
@@ -287,7 +287,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "REAP",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41467-026-76264-2",
     "link_audit": "reviewed"
   },
@@ -324,7 +324,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://doi.org/10.1038/s41570-026-00847-2",
     "link_audit": "pending"
   },
@@ -361,7 +361,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s44160-026-01125-1",
     "link_audit": "pending"
   },
@@ -399,7 +399,7 @@
       "bioproagent-neuro-symbolic-grounding-constrained-scientific-planning"
     ],
     "method_label": "BioProBench",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://arxiv.org/abs/2505.07889",
     "link_audit": "reviewed"
   },
@@ -472,7 +472,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s44160-026-01120-6",
     "link_audit": "pending"
   },
@@ -508,7 +508,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s43246-026-01219-5",
     "link_audit": "pending"
   },
@@ -545,7 +545,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "ProtoPilot",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://arxiv.org/abs/2606.31763",
     "link_audit": "reviewed"
   },
@@ -618,7 +618,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "AutoLabs",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41598-026-45593-z",
     "link_audit": "reviewed"
   },
@@ -654,7 +654,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "Flex-Cat",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://doi.org/10.1038/s41467-026-74425-x",
     "link_audit": "reviewed"
   },
@@ -690,7 +690,7 @@
     "curation_note": "Source: verified publisher, conference proceedings, arXiv, or author-maintained project. Publication date uses first public release when proceedings provide only a year.",
     "related": [],
     "method_label": "LabVLA",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://arxiv.org/abs/2606.13578",
     "link_audit": "existing-link"
   },
@@ -769,6 +769,78 @@
     "link_audit": "existing-link"
   },
   {
+    "id": "lap-an-agent-to-instrument-protocol-for-autonomous-science",
+    "title": "LAP: An Agent-to-Instrument Protocol for Autonomous Science",
+    "year": 2026,
+    "first_public_date": "2026-06-02",
+    "publication_date": "2026-06-02",
+    "venue": "arXiv",
+    "authors_display": "Linwu Zhu et al.",
+    "category": "infrastructure",
+    "scope": "enabling",
+    "topics": [
+      "llm-agents",
+      "instrument-control",
+      "workflow-orchestration"
+    ],
+    "domains": [
+      "cross-domain"
+    ],
+    "description": "Proposes a protocol layer between reasoning agents and laboratory instruments, so each autonomous system does not rebuild vendor integrations from scratch.",
+    "doi": null,
+    "arxiv_id": "2606.03755",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.03755",
+      "pdf": "https://arxiv.org/pdf/2606.03755",
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "LAP",
+    "value_stars": 4,
+    "source_url": "https://arxiv.org/abs/2606.03755",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "accelerating-scientific-discovery-with-co-scientist",
+    "title": "Accelerating scientific discovery with Co-Scientist",
+    "year": 2026,
+    "first_public_date": "2026-05-19",
+    "publication_date": "2026-05-19",
+    "venue": "Nature",
+    "authors_display": "Juraj Gottweis et al.",
+    "category": "systems",
+    "scope": "core",
+    "topics": [
+      "llm-agents",
+      "ai-experiment-agents",
+      "autonomous-planning"
+    ],
+    "domains": [
+      "biology"
+    ],
+    "description": "A multi-agent system built on Gemini that generates, debates and ranks scientific hypotheses for complex problems, with wet-lab validation of its biomedical proposals.",
+    "doi": "10.1038/s41586-026-10644-y",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1038/s41586-026-10644-y",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "Co-Scientist",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1038/s41586-026-10644-y",
+    "link_audit": "reviewed"
+  },
+  {
     "id": "a-multi-agent-system-for-automating-scientific-discovery",
     "title": "A multi-agent system for automating scientific discovery",
     "year": 2026,
@@ -801,7 +873,7 @@
     "curation_note": "Nature 655, 497–505 (2026). The article links the Robin and Finch repositories; only the Robin repository is recorded as this entry's code.",
     "related": [],
     "method_label": "Robin",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://www.nature.com/articles/s41586-026-10652-y",
     "link_audit": "reviewed"
   },
@@ -838,7 +910,7 @@
     "curation_note": "npj Robotics 4, 29 (2026); Perspective, three authors.",
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://www.nature.com/articles/s44182-026-00094-z",
     "link_audit": "reviewed"
   },
@@ -911,7 +983,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "LABBench2",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://arxiv.org/abs/2604.09554",
     "link_audit": "reviewed"
   },
@@ -948,7 +1020,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "PoLARIS",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://doi.org/10.1038/s41467-026-72765-2",
     "link_audit": "reviewed"
   },
@@ -984,7 +1056,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "Corral",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://arxiv.org/abs/2604.18805",
     "link_audit": "reviewed"
   },
@@ -1022,7 +1094,7 @@
     "curation_note": "Nature 653, 707–714 (2026). The article's Code availability links the GitHub repository and its Zenodo software archive 10.5281/zenodo.18803626.",
     "related": [],
     "method_label": "",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://www.nature.com/articles/s41586-026-10482-y",
     "link_audit": "reviewed"
   },
@@ -1095,9 +1167,45 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41467-026-71204-6",
     "link_audit": "pending"
+  },
+  {
+    "id": "towards-end-to-end-automation-of-ai-research",
+    "title": "Towards end-to-end automation of AI research",
+    "year": 2026,
+    "first_public_date": "2026-03-25",
+    "publication_date": "2026-03-25",
+    "venue": "Nature",
+    "authors_display": "Chris Lu et al.",
+    "category": "systems",
+    "scope": "enabling",
+    "topics": [
+      "llm-agents",
+      "ai-experiment-agents",
+      "closed-loop"
+    ],
+    "domains": [
+      "computer-science"
+    ],
+    "description": "An AI system that carries a research project from forming the question through running experiments to writing the paper, with human checkpoints at defined stages.",
+    "doi": "10.1038/s41586-026-10265-5",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1038/s41586-026-10265-5",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1038/s41586-026-10265-5",
+    "link_audit": "reviewed"
   },
   {
     "id": "vriza-2026-operating-advanced-scientific-instruments",
@@ -1133,7 +1241,7 @@
     "curation_note": "Publisher/author source verified; publication date from publisher first online version.",
     "related": [],
     "method_label": "CALMS",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://www.nature.com/articles/s41524-026-02005-0",
     "link_audit": "existing-link"
   },
@@ -1170,8 +1278,44 @@
     "curation_note": "Cell 189, 1620–1635.e25 (2026); bioRxiv preprint 10.1101/2025.02.14.638383 posted 2025-02-16 under a different title and author order. Deposited data are the Zenodo dataset records 10.5281/zenodo.17771148 and 10.5281/zenodo.17771224; no paper-specific code release was verified.",
     "related": [],
     "method_label": "LUMI-lab",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://doi.org/10.1016/j.cell.2026.01.012",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "domain-specialized-language-models-with-ai-measurement-tools",
+    "title": "Integrating Domain-Specialized Language Models with AI Measurement Tools for Deterministic Atomic-Resolution Experimentation",
+    "year": 2026,
+    "first_public_date": "2026-02-24",
+    "publication_date": "2026-02-24",
+    "venue": "arXiv",
+    "authors_display": "Zhuo Diao et al.",
+    "category": "methods",
+    "scope": "enabling",
+    "topics": [
+      "llm-agents",
+      "instrument-control",
+      "computational-experiments"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Pairs a domain-tuned language model with measurement tooling so a self-driving laboratory keeps deterministic execution under strict physical constraints.",
+    "doi": null,
+    "arxiv_id": "2602.20669",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.20669",
+      "pdf": "https://arxiv.org/pdf/2602.20669",
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 3,
+    "source_url": "https://arxiv.org/abs/2602.20669",
     "link_audit": "reviewed"
   },
   {
@@ -1243,7 +1387,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41467-026-69233-2",
     "link_audit": "pending"
   },
@@ -1281,6 +1425,43 @@
     "value_stars": 2,
     "source_url": "https://arxiv.org/abs/2602.07753",
     "link_audit": "existing-link"
+  },
+  {
+    "id": "mars-knowledge-driven-autonomous-materials-research",
+    "title": "Knowledge-driven autonomous materials research via collaborative multi-agent and robotic system",
+    "year": 2026,
+    "first_public_date": "2026-01-21",
+    "publication_date": "2026-01-21",
+    "venue": "Matter",
+    "authors_display": "Tongyu Shi et al.",
+    "category": "systems",
+    "scope": "core",
+    "topics": [
+      "llm-agents",
+      "ai-experiment-agents",
+      "robotics",
+      "lab-automation"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Couples knowledge-driven multi-agent reasoning with a robot platform so that hypothesis generation, synthesis and characterisation run as one collaborative loop.",
+    "doi": "10.1016/j.matt.2025.102577",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.matt.2025.102577",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "MARS",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1016/j.matt.2025.102577",
+    "link_audit": "reviewed"
   },
   {
     "id": "matterix-lab-digital-twin-2025",
@@ -1352,7 +1533,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41467-025-66916-0",
     "link_audit": "pending"
   },
@@ -1390,6 +1571,43 @@
     "method_label": "LabUtopia",
     "value_stars": 3,
     "source_url": "https://arxiv.org/abs/2505.22634",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "evaluating-llm-agents-for-automation-of-atomic-force-microscopy",
+    "title": "Evaluating large language model agents for automation of atomic force microscopy",
+    "year": 2025,
+    "first_public_date": "2025-10-14",
+    "publication_date": "2025-10-14",
+    "venue": "Nature Communications",
+    "authors_display": "Indrajeet Mandal et al.",
+    "category": "benchmarks",
+    "scope": "enabling",
+    "topics": [
+      "llm-agents",
+      "instrument-control",
+      "benchmarking"
+    ],
+    "domains": [
+      "materials",
+      "physics"
+    ],
+    "description": "Tests language-model agents on atomic force microscopy operations, measuring how far they adapt to changing experimental conditions rather than replaying a fixed protocol.",
+    "doi": "10.1038/s41467-025-64105-7",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1038/s41467-025-64105-7",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1038/s41467-025-64105-7",
     "link_audit": "reviewed"
   },
   {
@@ -1461,7 +1679,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s43588-025-00885-8",
     "link_audit": "pending"
   },
@@ -1498,7 +1716,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "CRESt",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://doi.org/10.1038/s41586-025-09640-5",
     "link_audit": "existing-link"
   },
@@ -1571,7 +1789,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "Rainbow",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41467-025-63209-4",
     "link_audit": "reviewed"
   },
@@ -1608,7 +1826,7 @@
     "related": [],
     "method_label": "",
     "publication_date": "2025-08-18",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41570-025-00747-x",
     "link_audit": "pending"
   },
@@ -1645,7 +1863,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41467-025-62994-2",
     "link_audit": "reviewed"
   },
@@ -1680,9 +1898,44 @@
     "curation_note": "Source: verified publisher, conference proceedings, arXiv, or author-maintained project. Publication date uses first public release when proceedings provide only a year.",
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://arxiv.org/abs/2508.06642",
     "link_audit": "pending"
+  },
+  {
+    "id": "exploring-the-role-of-llms-in-the-scientific-method",
+    "title": "Exploring the role of large language models in the scientific method: from hypothesis to discovery",
+    "year": 2025,
+    "first_public_date": "2025-08-05",
+    "publication_date": "2025-08-05",
+    "venue": "npj Artificial Intelligence",
+    "authors_display": "Yanbo Zhang et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "llm-agents",
+      "ai-experiment-agents"
+    ],
+    "domains": [
+      "cross-domain"
+    ],
+    "description": "Reviews how language models are inserted into each stage of the scientific method and where they remain unreliable as creative research engines.",
+    "doi": "10.1038/s44387-025-00019-5",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1038/s44387-025-00019-5",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 3,
+    "source_url": "https://doi.org/10.1038/s44387-025-00019-5",
+    "link_audit": "reviewed"
   },
   {
     "id": "crispr-gpt-for-agentic-automation-of-gene-editing-experiments",
@@ -1716,7 +1969,7 @@
     "curation_note": "Linked GitHub repository is a light version; authors explicitly withhold the full codebase.",
     "related": [],
     "method_label": "CRISPR-GPT",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://doi.org/10.1038/s41551-025-01463-z",
     "link_audit": "reviewed"
   },
@@ -1752,8 +2005,44 @@
     "curation_note": "International Journal of Computer Vision 133(10), 7352–7367 (2025). Access to the video and annotation download requires signing the licence agreement in the repository; no separate project homepage exists.",
     "related": [],
     "method_label": "FineBio",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://link.springer.com/article/10.1007/s11263-025-02523-2",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "toward-full-autonomous-laboratory-instrumentation-control",
+    "title": "Toward Full Autonomous Laboratory Instrumentation Control with Large Language Models",
+    "year": 2025,
+    "first_public_date": "2025-07-03",
+    "publication_date": "2025-07-03",
+    "venue": "Small Structures",
+    "authors_display": "Yong Xie et al.",
+    "category": "methods",
+    "scope": "enabling",
+    "topics": [
+      "llm-agents",
+      "instrument-control",
+      "lab-automation"
+    ],
+    "domains": [
+      "chemistry"
+    ],
+    "description": "Presents a language-model controller that drives laboratory instruments directly, removing hand-written drivers from the autonomous experiment loop.",
+    "doi": "10.1002/sstr.202500173",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1002/sstr.202500173",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 3,
+    "source_url": "https://doi.org/10.1002/sstr.202500173",
     "link_audit": "reviewed"
   },
   {
@@ -1789,8 +2078,79 @@
     "curation_note": "No code or project link appears on the paper page; the absence is unverified, not confirmed.",
     "related": [],
     "method_label": "BioMARS",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://arxiv.org/abs/2507.01485",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "ai4research-a-survey-of-artificial-intelligence-for-research",
+    "title": "AI4Research: A Survey of Artificial Intelligence for Scientific Research",
+    "year": 2025,
+    "first_public_date": "2025-07-02",
+    "publication_date": "2025-07-02",
+    "venue": "arXiv",
+    "authors_display": "Qiguang Chen et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "llm-agents",
+      "ai-experiment-agents"
+    ],
+    "domains": [
+      "cross-domain"
+    ],
+    "description": "Surveys how AI and large language models are applied across the research workflow, from literature synthesis and hypothesis generation to experimental coding.",
+    "doi": null,
+    "arxiv_id": "2507.01903",
+    "links": {
+      "paper": "https://arxiv.org/abs/2507.01903",
+      "pdf": "https://arxiv.org/pdf/2507.01903",
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://arxiv.org/abs/2507.01903",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "agent4s-llm-agents-as-the-fifth-research-paradigm",
+    "title": "Agent4S: The Transformation of Research Paradigms from the Perspective of Large Language Models",
+    "year": 2025,
+    "first_public_date": "2025-06-30",
+    "publication_date": "2025-06-30",
+    "venue": "arXiv",
+    "authors_display": "Boyuan Zheng et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "llm-agents",
+      "ai-experiment-agents",
+      "autonomous-planning"
+    ],
+    "domains": [
+      "cross-domain"
+    ],
+    "description": "Positions language-model agents as a fifth research paradigm and offers a five-level classification of how much of the research workflow they automate.",
+    "doi": null,
+    "arxiv_id": "2506.23692",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.23692",
+      "pdf": "https://arxiv.org/pdf/2506.23692",
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "Agent4S",
+    "value_stars": 3,
+    "source_url": "https://arxiv.org/abs/2506.23692",
     "link_audit": "reviewed"
   },
   {
@@ -1863,7 +2223,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "Agent Laboratory",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://arxiv.org/abs/2501.04227",
     "link_audit": "reviewed"
   },
@@ -1942,6 +2302,42 @@
     "link_audit": "reviewed"
   },
   {
+    "id": "ai-scientists-fail-without-strong-implementation-capability",
+    "title": "AI Scientists Fail Without Strong Implementation Capability",
+    "year": 2025,
+    "first_public_date": "2025-06-02",
+    "publication_date": "2025-06-02",
+    "venue": "arXiv",
+    "authors_display": "Minjun Zhu et al.",
+    "category": "benchmarks",
+    "scope": "enabling",
+    "topics": [
+      "benchmarking",
+      "llm-agents",
+      "ai-experiment-agents"
+    ],
+    "domains": [
+      "computer-science"
+    ],
+    "description": "Shows that AI-scientist systems are limited less by generating ideas than by implementing and running experiments correctly.",
+    "doi": null,
+    "arxiv_id": "2506.01372",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.01372",
+      "pdf": "https://arxiv.org/pdf/2506.01372",
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://arxiv.org/abs/2506.01372",
+    "link_audit": "reviewed"
+  },
+  {
     "id": "autobio-simulation-benchmark-robotic-automation-digital-biology-lab",
     "title": "AutoBio: A Simulation and Benchmark for Robotic Automation in Digital Biology Laboratory",
     "year": 2025,
@@ -2015,6 +2411,78 @@
     "link_audit": "existing-link"
   },
   {
+    "id": "are-llms-reliable-ai-scientists-reverse-engineering-black-box",
+    "title": "Are Large Language Models Reliable AI Scientists? Assessing Reverse-Engineering of Black-Box Systems",
+    "year": 2025,
+    "first_public_date": "2025-05-23",
+    "publication_date": "2025-05-23",
+    "venue": "arXiv",
+    "authors_display": "Jiayi Geng et al.",
+    "category": "benchmarks",
+    "scope": "enabling",
+    "topics": [
+      "benchmarking",
+      "llm-agents",
+      "computational-experiments"
+    ],
+    "domains": [
+      "computer-science"
+    ],
+    "description": "Asks whether a language model can recover the structure of a black-box system from its behaviour, a prerequisite for autonomous scientific modelling.",
+    "doi": null,
+    "arxiv_id": "2505.17968",
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.17968",
+      "pdf": "https://arxiv.org/pdf/2505.17968",
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 3,
+    "source_url": "https://arxiv.org/abs/2505.17968",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "from-automation-to-autonomy-survey-llms-in-scientific-discovery",
+    "title": "From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery",
+    "year": 2025,
+    "first_public_date": "2025-05-19",
+    "publication_date": "2025-05-19",
+    "venue": "arXiv",
+    "authors_display": "Tianshi Zheng et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "llm-agents",
+      "ai-experiment-agents",
+      "autonomous-planning"
+    ],
+    "domains": [
+      "cross-domain"
+    ],
+    "description": "Surveys language-model agents in scientific discovery and sorts them into three levels of autonomy: model as tool, model as analyst and model as scientist.",
+    "doi": null,
+    "arxiv_id": "2505.13259",
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.13259",
+      "pdf": "https://arxiv.org/pdf/2505.13259",
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://arxiv.org/abs/2505.13259",
+    "link_audit": "reviewed"
+  },
+  {
     "id": "engineering-principles-for-self-driving-laboratories",
     "title": "Engineering principles for self-driving laboratories",
     "year": 2025,
@@ -2046,7 +2514,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s44286-025-00217-7",
     "link_audit": "pending"
   },
@@ -2083,7 +2551,7 @@
     "related": [],
     "method_label": "",
     "publication_date": "2025-04-24",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41467-025-59231-1",
     "link_audit": "pending"
   },
@@ -2155,7 +2623,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "PaperBench",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://proceedings.mlr.press/v267/starace25a.html",
     "link_audit": "reviewed"
   },
@@ -2227,7 +2695,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "ScienceAgentBench",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://arxiv.org/abs/2410.05080",
     "link_audit": "reviewed"
   },
@@ -2299,7 +2767,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "BioDiscoveryAgent",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/4252dc94531833029000f85dc5fac792-Abstract-Conference.html",
     "link_audit": "reviewed"
   },
@@ -2335,7 +2803,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "MLE-bench",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://arxiv.org/abs/2410.07095",
     "link_audit": "reviewed"
   },
@@ -2371,7 +2839,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "Curie",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://arxiv.org/abs/2502.16069",
     "link_audit": "reviewed"
   },
@@ -2408,7 +2876,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "AFION",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41467-025-56788-9",
     "link_audit": "reviewed"
   },
@@ -2445,7 +2913,7 @@
     "related": [],
     "method_label": "ORGANA",
     "publication_date": "2025-02-05",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1016/j.matt.2024.10.015",
     "link_audit": "reviewed"
   },
@@ -2519,7 +2987,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41929-024-01275-5",
     "link_audit": "pending"
   },
@@ -2592,7 +3060,7 @@
     "related": [],
     "method_label": "",
     "publication_date": "2024-11-06",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41586-024-08173-7",
     "link_audit": "pending"
   },
@@ -2664,7 +3132,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "DiscoveryWorld",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://openreview.net/forum?id=cDYqckEt6d",
     "link_audit": "reviewed"
   },
@@ -2701,7 +3169,7 @@
     "related": [],
     "method_label": "ChemOS 2.0",
     "publication_date": "2024-09-04",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1016/j.matt.2024.04.022",
     "link_audit": "existing-link"
   },
@@ -2737,8 +3205,46 @@
     "curation_note": null,
     "related": [],
     "method_label": "AI Scientist",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://arxiv.org/abs/2408.06292",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "self-driving-laboratories-for-chemistry-and-materials-science",
+    "title": "Self-Driving Laboratories for Chemistry and Materials Science",
+    "year": 2024,
+    "first_public_date": "2024-08-13",
+    "publication_date": "2024-08-13",
+    "venue": "Chemical Reviews",
+    "authors_display": "Gary Tom et al.",
+    "category": "surveys",
+    "scope": "core",
+    "topics": [
+      "closed-loop",
+      "lab-automation",
+      "robotics",
+      "workflow-orchestration"
+    ],
+    "domains": [
+      "chemistry",
+      "materials"
+    ],
+    "description": "A broad review of self-driving laboratory technology covering the hardware, orchestration software and decision algorithms that make closed-loop chemistry and materials research possible.",
+    "doi": "10.1021/acs.chemrev.4c00055",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1021/acs.chemrev.4c00055",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1021/acs.chemrev.4c00055",
     "link_audit": "reviewed"
   },
   {
@@ -2773,7 +3279,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41467-024-50884-y",
     "link_audit": "pending"
   },
@@ -2848,7 +3354,7 @@
     "curation_note": "Publisher/author source verified; publication date from publisher first online version.",
     "related": [],
     "method_label": "ACDC",
-    "value_stars": 3,
+    "value_stars": 5,
     "source_url": "https://www.science.org/doi/10.1126/science.adk9227",
     "link_audit": "reviewed"
   },
@@ -2921,7 +3427,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "ChemCrow",
-    "value_stars": 3,
+    "value_stars": 5,
     "source_url": "https://doi.org/10.1038/s42256-024-00832-8",
     "link_audit": "reviewed"
   },
@@ -2957,7 +3463,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s44160-024-00502-y",
     "link_audit": "pending"
   },
@@ -3030,7 +3536,7 @@
     "related": [],
     "method_label": "",
     "publication_date": "2024-02-14",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41467-024-45569-5",
     "link_audit": "pending"
   },
@@ -3066,7 +3572,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "Schlenkputer",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s44286-023-00024-y",
     "link_audit": "pending"
   },
@@ -3102,7 +3608,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://doi.org/10.1126/science.adj1817",
     "link_audit": "pending"
   },
@@ -3139,7 +3645,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://doi.org/10.1038/s41467-023-44599-9",
     "link_audit": "reviewed"
   },
@@ -3175,7 +3681,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "SAMPLE",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://doi.org/10.1038/s44286-023-00002-4",
     "link_audit": "pending"
   },
@@ -3211,7 +3717,7 @@
     "related": [],
     "method_label": "Coscientist",
     "publication_date": "2023-12-20",
-    "value_stars": 2,
+    "value_stars": 5,
     "source_url": "https://doi.org/10.1038/s41586-023-06792-0",
     "link_audit": "existing-link"
   },
@@ -3247,7 +3753,7 @@
     "related": [],
     "method_label": "A-Lab",
     "publication_date": "2023-11-29",
-    "value_stars": 2,
+    "value_stars": 5,
     "source_url": "https://doi.org/10.1038/s41586-023-06734-w",
     "link_audit": "pending"
   },
@@ -3321,7 +3827,7 @@
     "curation_note": null,
     "related": [],
     "method_label": "BioPlanner",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://aclanthology.org/2023.emnlp-main.162/",
     "link_audit": "reviewed"
   },
@@ -3430,8 +3936,115 @@
     "related": [],
     "method_label": "AlphaFlow",
     "publication_date": "2023-03-14",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1038/s41467-023-37139-y",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "role-of-ai-in-experimental-materials-science",
+    "title": "Role of AI in experimental materials science",
+    "year": 2023,
+    "first_public_date": "2023-03-07",
+    "publication_date": "2023-03-07",
+    "venue": "MRS Bulletin",
+    "authors_display": "Milad Abolhasani et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "lab-automation",
+      "active-learning",
+      "closed-loop"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Reviews where AI fits in experimental materials science, from data analysis through to closed-loop control of automated experimentation platforms.",
+    "doi": "10.1557/s43577-023-00482-y",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1557/s43577-023-00482-y",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1557/s43577-023-00482-y",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "next-generation-intelligent-laboratories-for-materials",
+    "title": "Next-generation intelligent laboratories for materials design and manufacturing",
+    "year": 2023,
+    "first_public_date": "2023-02-27",
+    "publication_date": "2023-02-27",
+    "venue": "MRS Bulletin",
+    "authors_display": "Xiting Peng & Xiaonan Wang",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "lab-automation",
+      "workflow-orchestration",
+      "autonomous-planning"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Surveys the design of intelligent laboratories that combine modular synthesis, inline characterisation and machine-learning decision making.",
+    "doi": "10.1557/s43577-023-00481-z",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1557/s43577-023-00481-z",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1557/s43577-023-00481-z",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "artificial-intelligence-for-materials-research-at-extremes",
+    "title": "Artificial intelligence for materials research at extremes",
+    "year": 2023,
+    "first_public_date": "2023-02-02",
+    "publication_date": "2023-02-02",
+    "venue": "MRS Bulletin",
+    "authors_display": "B. Maruyama et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "active-learning",
+      "autonomous-planning"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Examines how AI and autonomous experimentation can shorten materials development for extreme environments, where the desired properties interact in complex ways.",
+    "doi": "10.1557/s43577-022-00466-4",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1557/s43577-022-00466-4",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 3,
+    "source_url": "https://doi.org/10.1557/s43577-022-00466-4",
     "link_audit": "reviewed"
   },
   {
@@ -3467,9 +4080,587 @@
     "curation_note": null,
     "related": [],
     "method_label": "",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://doi.org/10.1038/s44160-022-00231-0",
     "link_audit": "pending"
+  },
+  {
+    "id": "closed-loop-spectroscopy-lab-light-mixing-demo",
+    "title": "Build instructions for Closed-loop Spectroscopy Lab: Light-mixing Demo",
+    "year": 2023,
+    "first_public_date": "2023-01-08",
+    "publication_date": "2023-01-08",
+    "venue": "ChemRxiv",
+    "authors_display": "Sterling G. Baird & Taylor D. Sparks",
+    "category": "infrastructure",
+    "scope": "enabling",
+    "topics": [
+      "closed-loop",
+      "instrument-control"
+    ],
+    "domains": [
+      "chemistry",
+      "physics"
+    ],
+    "description": "Build instructions for a low-cost LED-and-sensor platform that demonstrates the whole self-driving loop, from sending commands through measurement to optimisation.",
+    "doi": "10.26434/chemrxiv-2023-xgx5h",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.26434/chemrxiv-2023-xgx5h",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "CLSLab:Light",
+    "value_stars": 3,
+    "source_url": "https://doi.org/10.26434/chemrxiv-2023-xgx5h",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "perspectives-for-self-driving-labs-in-synthetic-biology",
+    "title": "Perspectives for self-driving labs in synthetic biology",
+    "year": 2023,
+    "first_public_date": "2023-01-03",
+    "publication_date": "2023-01-03",
+    "venue": "Current Opinion in Biotechnology",
+    "authors_display": "Hector G Martin et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "closed-loop",
+      "lab-automation",
+      "autonomous-planning"
+    ],
+    "domains": [
+      "biology"
+    ],
+    "description": "Frames self-driving labs for synthetic biology around laboratory autonomy levels and closed design-build-test-learn cycles.",
+    "doi": "10.1016/j.copbio.2022.102881",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.copbio.2022.102881",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1016/j.copbio.2022.102881",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "research-acceleration-in-self-driving-labs-roadmap",
+    "title": "Research Acceleration in Self‐Driving Labs: Technological Roadmap toward Accelerated Materials and Molecular Discovery",
+    "year": 2022,
+    "first_public_date": "2022-12-23",
+    "publication_date": "2022-12-23",
+    "venue": "Advanced Intelligent Systems",
+    "authors_display": "Fernando Delgado-Licona & Milad Abolhasani",
+    "category": "surveys",
+    "scope": "core",
+    "topics": [
+      "closed-loop",
+      "lab-automation",
+      "robotics"
+    ],
+    "domains": [
+      "chemistry",
+      "materials"
+    ],
+    "description": "Lays out a technology roadmap for self-driving laboratories covering robotics, additive manufacturing, inline analytics and the algorithms that connect them.",
+    "doi": "10.1002/aisy.202200331",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1002/aisy.202200331",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1002/aisy.202200331",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "autonomous-ai-driven-materials-science",
+    "title": "Autonomous (AI-driven) materials science",
+    "year": 2022,
+    "first_public_date": "2022-09-30",
+    "publication_date": "2022-09-30",
+    "venue": "Applied Physics Reviews",
+    "authors_display": "Martin L. Green et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "lab-automation",
+      "active-learning",
+      "closed-loop"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Reviews the shift from human-paced materials research toward AI-driven autonomous experimentation.",
+    "doi": "10.1063/5.0118872",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1063/5.0118872",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 3,
+    "source_url": "https://doi.org/10.1063/5.0118872",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "reproducible-sorbent-materials-foundry-for-carbon-capture",
+    "title": "Reproducible sorbent materials foundry for carbon capture at scale",
+    "year": 2022,
+    "first_public_date": "2022-09-22",
+    "publication_date": "2022-09-22",
+    "venue": "Cell Reports Physical Science",
+    "authors_display": "Austin McDannald et al.",
+    "category": "systems",
+    "scope": "core",
+    "topics": [
+      "lab-automation",
+      "robotics",
+      "data-management"
+    ],
+    "domains": [
+      "materials",
+      "energy"
+    ],
+    "description": "A robotic foundry for carbon-capture sorbents that standardises synthesis and testing so results from different laboratories can be compared.",
+    "doi": "10.1016/j.xcrp.2022.101063",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.xcrp.2022.101063",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1016/j.xcrp.2022.101063",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "object-oriented-framework-for-workflow-evolution-across-maps",
+    "title": "An object-oriented framework to enable workflow evolution across materials acceleration platforms",
+    "year": 2022,
+    "first_public_date": "2022-08-31",
+    "publication_date": "2022-08-31",
+    "venue": "Matter",
+    "authors_display": "Chang Jie Leong et al.",
+    "category": "infrastructure",
+    "scope": "enabling",
+    "topics": [
+      "workflow-orchestration",
+      "data-management",
+      "lab-automation"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "An object-oriented software framework that lets experimental workflows evolve as a platform's hardware and analysis steps change.",
+    "doi": "10.1016/j.matt.2022.08.017",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.matt.2022.08.017",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 3,
+    "source_url": "https://doi.org/10.1016/j.matt.2022.08.017",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "autonomous-chemical-experiments-establishing-a-self-driving-lab",
+    "title": "Autonomous Chemical Experiments: Challenges and Perspectives on Establishing a Self-Driving Lab",
+    "year": 2022,
+    "first_public_date": "2022-08-10",
+    "publication_date": "2022-08-10",
+    "venue": "Accounts of Chemical Research",
+    "authors_display": "Martin Seifrid et al.",
+    "category": "surveys",
+    "scope": "core",
+    "topics": [
+      "closed-loop",
+      "lab-automation",
+      "data-management"
+    ],
+    "domains": [
+      "chemistry"
+    ],
+    "description": "Sets out what it takes to establish a self-driving laboratory for chemistry and where current platforms still fall short of genuine autonomy.",
+    "doi": "10.1021/acs.accounts.2c00220",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1021/acs.accounts.2c00220",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1021/acs.accounts.2c00220",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "defining-levels-of-automated-chemical-design",
+    "title": "Defining Levels of Automated Chemical Design",
+    "year": 2022,
+    "first_public_date": "2022-05-05",
+    "publication_date": "2022-05-05",
+    "venue": "Journal of Medicinal Chemistry",
+    "authors_display": "Brian Goldman et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "autonomous-planning",
+      "lab-automation"
+    ],
+    "domains": [
+      "chemistry"
+    ],
+    "description": "Proposes a shared vocabulary of automation levels for chemical design so that platforms with very different capabilities can be compared.",
+    "doi": "10.1021/acs.jmedchem.2c00334",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1021/acs.jmedchem.2c00334",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1021/acs.jmedchem.2c00334",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "toward-autonomous-materials-research-progress-and-challenges",
+    "title": "Toward autonomous materials research: Recent progress and future challenges",
+    "year": 2022,
+    "first_public_date": "2022-01-13",
+    "publication_date": "2022-01-13",
+    "venue": "Applied Physics Reviews",
+    "authors_display": "Joseph H. Montoya et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "closed-loop",
+      "active-learning",
+      "data-management"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Reviews progress toward autonomous materials research and the obstacles that remain before the loop from hypothesis to experiment closes reliably.",
+    "doi": "10.1063/5.0076324",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1063/5.0076324",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1063/5.0076324",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "modular-autonomous-feedback-loops-in-materials-science",
+    "title": "Enabling Modular Autonomous Feedback‐Loops in Materials Science through Hierarchical Experimental Laboratory Automation and Orchestration",
+    "year": 2022,
+    "first_public_date": "2022-01-06",
+    "publication_date": "2022-01-06",
+    "venue": "Advanced Materials Interfaces",
+    "authors_display": "Fuzhan Rahmanian et al.",
+    "category": "infrastructure",
+    "scope": "enabling",
+    "topics": [
+      "workflow-orchestration",
+      "closed-loop",
+      "lab-automation"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Describes the modular hardware and software layers needed to run several autonomous feedback loops inside a single materials acceleration platform.",
+    "doi": "10.1002/admi.202101987",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1002/admi.202101987",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 3,
+    "source_url": "https://doi.org/10.1002/admi.202101987",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "autonomous-materials-synthesis-hierarchical-active-learning",
+    "title": "Autonomous materials synthesis via hierarchical active learning of nonequilibrium phase diagrams",
+    "year": 2021,
+    "first_public_date": "2021-12-17",
+    "publication_date": "2021-12-17",
+    "venue": "Science Advances",
+    "authors_display": "Sebastian Ament et al.",
+    "category": "methods",
+    "scope": "core",
+    "topics": [
+      "active-learning",
+      "closed-loop",
+      "autonomous-planning"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Uses hierarchical active learning to steer synthesis away from equilibrium, targeting metastable phases that conventional search campaigns miss.",
+    "doi": "10.1126/sciadv.abg4930",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1126/sciadv.abg4930",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1126/sciadv.abg4930",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "flexible-automation-accelerates-materials-discovery",
+    "title": "Flexible automation accelerates materials discovery",
+    "year": 2021,
+    "first_public_date": "2021-12-14",
+    "publication_date": "2021-12-14",
+    "venue": "Nature Materials",
+    "authors_display": "Benjamin P. MacLeod et al.",
+    "category": "applications",
+    "scope": "core",
+    "topics": [
+      "lab-automation",
+      "active-learning",
+      "closed-loop"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Shows that reconfigurable automation combined with machine-learning decision making shortens the cycle from materials synthesis to characterisation.",
+    "doi": "10.1038/s41563-021-01156-3",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1038/s41563-021-01156-3",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1038/s41563-021-01156-3",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "robotic-platform-and-bayesian-optimization-for-mof-synthesis",
+    "title": "Accelerate Synthesis of Metal–Organic Frameworks by a Robotic Platform and Bayesian Optimization",
+    "year": 2021,
+    "first_public_date": "2021-10-28",
+    "publication_date": "2021-10-28",
+    "venue": "ACS Applied Materials &amp; Interfaces",
+    "authors_display": "Yunchao Xie et al.",
+    "category": "applications",
+    "scope": "core",
+    "topics": [
+      "bayesian-optimization",
+      "robotics",
+      "closed-loop"
+    ],
+    "domains": [
+      "materials",
+      "chemistry"
+    ],
+    "description": "Combines a robotic synthesis platform with Bayesian optimization to speed up the search for metal-organic framework synthesis conditions.",
+    "doi": "10.1021/acsami.1c16506",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1021/acsami.1c16506",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1021/acsami.1c16506",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "autonomous-experimentation-systems-for-materials-development",
+    "title": "Autonomous experimentation systems for materials development: A community perspective",
+    "year": 2021,
+    "first_public_date": "2021-07-26",
+    "publication_date": "2021-07-26",
+    "venue": "Matter",
+    "authors_display": "Eric Stach et al.",
+    "category": "surveys",
+    "scope": "core",
+    "topics": [
+      "closed-loop",
+      "lab-automation",
+      "data-management"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "A community assessment of autonomous experimentation for materials that names the data, hardware and cultural obstacles slowing adoption.",
+    "doi": "10.1016/j.matt.2021.06.036",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.matt.2021.06.036",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1016/j.matt.2021.06.036",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "automated-and-autonomous-experiments-in-microscopy",
+    "title": "Automated and Autonomous Experiments in Electron and Scanning Probe Microscopy",
+    "year": 2021,
+    "first_public_date": "2021-07-16",
+    "publication_date": "2021-07-16",
+    "venue": "ACS Nano",
+    "authors_display": "Sergei V. Kalinin et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "instrument-control",
+      "active-learning",
+      "lab-automation"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Reviews how automation and machine-learning decision making are reshaping electron and scanning probe microscopy workflows.",
+    "doi": "10.1021/acsnano.1c02104",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1021/acsnano.1c02104",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1021/acsnano.1c02104",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "bayesian-optimization-on-a-3d-printer",
+    "title": "Toward autonomous additive manufacturing: Bayesian optimization on a 3D printer",
+    "year": 2021,
+    "first_public_date": "2021-04-19",
+    "publication_date": "2021-04-19",
+    "venue": "MRS Bulletin",
+    "authors_display": "James R. Deneault et al.",
+    "category": "methods",
+    "scope": "enabling",
+    "topics": [
+      "bayesian-optimization",
+      "closed-loop",
+      "lab-automation"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Applies Bayesian optimization to a 3D printer so that print parameters are learned automatically rather than by trial and error.",
+    "doi": "10.1557/s43577-021-00051-1",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1557/s43577-021-00051-1",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1557/s43577-021-00051-1",
+    "link_audit": "reviewed"
   },
   {
     "id": "bayesian-reaction-optimization",
@@ -3502,8 +4693,45 @@
     "related": [],
     "method_label": "EDBO",
     "publication_date": "2021-02-03",
-    "value_stars": 2,
+    "value_stars": 5,
     "source_url": "https://doi.org/10.1038/s41586-021-03213-y",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "autonomous-discovery-of-battery-electrolytes",
+    "title": "Autonomous Discovery of Battery Electrolytes with Robotic Experimentation and Machine Learning",
+    "year": 2020,
+    "first_public_date": "2020-11-09",
+    "publication_date": "2020-11-09",
+    "venue": "Cell Reports Physical Science",
+    "authors_display": "Adarsh Dave et al.",
+    "category": "applications",
+    "scope": "core",
+    "topics": [
+      "closed-loop",
+      "active-learning",
+      "robotics"
+    ],
+    "domains": [
+      "energy",
+      "chemistry"
+    ],
+    "description": "Pairs robotic electrolyte preparation and testing with machine-learning selection to search battery electrolyte formulations.",
+    "doi": "10.1016/j.xcrp.2020.100264",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.xcrp.2020.100264",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1016/j.xcrp.2020.100264",
     "link_audit": "reviewed"
   },
   {
@@ -3539,9 +4767,117 @@
     "related": [],
     "method_label": "",
     "publication_date": "2020-07-08",
-    "value_stars": 3,
+    "value_stars": 5,
     "source_url": "https://doi.org/10.1038/s41586-020-2442-2",
     "link_audit": "existing-link"
+  },
+  {
+    "id": "materials-acceleration-platforms-toward-autonomous-experimentation",
+    "title": "Materials Acceleration Platforms: On the way to autonomous experimentation",
+    "year": 2020,
+    "first_public_date": "2020-06-18",
+    "publication_date": "2020-06-18",
+    "venue": "Current Opinion in Green and Sustainable Chemistry",
+    "authors_display": "Martha M. Flores-Leonar et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "lab-automation",
+      "active-learning",
+      "closed-loop"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Reviews materials acceleration platforms and the path from high-throughput automation toward genuinely autonomous experimentation.",
+    "doi": "10.1016/j.cogsc.2020.100370",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.cogsc.2020.100370",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 3,
+    "source_url": "https://doi.org/10.1016/j.cogsc.2020.100370",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "autonomous-discovery-in-the-chemical-sciences-part-ii",
+    "title": "Autonomous Discovery in the Chemical Sciences Part II: Outlook",
+    "year": 2020,
+    "first_public_date": "2020-06-11",
+    "publication_date": "2020-06-11",
+    "venue": "Angewandte Chemie International Edition",
+    "authors_display": "Connor W. Coley et al.",
+    "category": "surveys",
+    "scope": "core",
+    "topics": [
+      "closed-loop",
+      "active-learning",
+      "autonomous-planning"
+    ],
+    "domains": [
+      "chemistry"
+    ],
+    "description": "The second half of a two-part review, reflecting on exemplary autonomous discovery studies and on what role automation and computation actually played in them.",
+    "doi": "10.1002/anie.201909989",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1002/anie.201909989",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1002/anie.201909989",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "autonomous-discovery-in-the-chemical-sciences-part-i",
+    "title": "Autonomous Discovery in the Chemical Sciences Part I: Progress",
+    "year": 2020,
+    "first_public_date": "2020-06-08",
+    "publication_date": "2020-06-08",
+    "venue": "Angewandte Chemie International Edition",
+    "authors_display": "Connor W. Coley et al.",
+    "category": "surveys",
+    "scope": "core",
+    "topics": [
+      "closed-loop",
+      "active-learning",
+      "autonomous-planning"
+    ],
+    "domains": [
+      "chemistry"
+    ],
+    "description": "The first half of a two-part review, framing chemical discovery as search problems and reviewing how automation and computation accelerated each kind of search.",
+    "doi": "10.1002/anie.201909987",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1002/anie.201909987",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1002/anie.201909987",
+    "link_audit": "reviewed"
   },
   {
     "id": "self-driving-thin-film-materials",
@@ -3575,8 +4911,81 @@
     "related": [],
     "method_label": "Ada",
     "publication_date": "2020-05-13",
-    "value_stars": 2,
+    "value_stars": 3,
     "source_url": "https://doi.org/10.1126/sciadv.aaz8867",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "chemos-orchestration-software-to-democratize-autonomous-discovery",
+    "title": "ChemOS: An orchestration software to democratize autonomous discovery",
+    "year": 2020,
+    "first_public_date": "2020-04-16",
+    "publication_date": "2020-04-16",
+    "venue": "PLOS ONE",
+    "authors_display": "Loïc M. Roch et al.",
+    "category": "infrastructure",
+    "scope": "enabling",
+    "topics": [
+      "workflow-orchestration",
+      "lab-automation",
+      "instrument-control"
+    ],
+    "domains": [
+      "chemistry"
+    ],
+    "description": "Presents ChemOS as an open orchestration layer that lets different laboratories, robots and algorithms be assembled into an autonomous discovery system.",
+    "doi": "10.1371/journal.pone.0229862",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1371/journal.pone.0229862",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "ChemOS",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1371/journal.pone.0229862",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "beyond-ternary-opv-high-throughput-and-self-driving-optimisation",
+    "title": "Beyond Ternary OPV: High‐Throughput Experimentation and Self‐Driving Laboratories Optimize Multicomponent Systems",
+    "year": 2020,
+    "first_public_date": "2020-02-12",
+    "publication_date": "2020-02-12",
+    "venue": "Advanced Materials",
+    "authors_display": "Stefan Langner et al.",
+    "category": "methods",
+    "scope": "enabling",
+    "topics": [
+      "active-learning",
+      "closed-loop",
+      "lab-automation"
+    ],
+    "domains": [
+      "energy",
+      "materials"
+    ],
+    "description": "Combines high-throughput experimentation with autonomous optimisation to search multicomponent organic photovoltaic blends.",
+    "doi": "10.1002/adma.201907801",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1002/adma.201907801",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 3,
+    "source_url": "https://doi.org/10.1002/adma.201907801",
     "link_audit": "reviewed"
   },
   {
@@ -3611,9 +5020,45 @@
     "related": [],
     "method_label": "",
     "publication_date": "2019-08-09",
-    "value_stars": 2,
+    "value_stars": 5,
     "source_url": "https://doi.org/10.1126/science.aax1566",
     "link_audit": "pending"
+  },
+  {
+    "id": "organic-synthesis-driven-by-a-chemical-programming-language",
+    "title": "Organic synthesis in a modular robotic system driven by a chemical programming language",
+    "year": 2019,
+    "first_public_date": "2019-01-11",
+    "publication_date": "2019-01-11",
+    "venue": "Science",
+    "authors_display": "Sebastian Steiner et al.",
+    "category": "systems",
+    "scope": "core",
+    "topics": [
+      "lab-automation",
+      "robotics",
+      "workflow-orchestration"
+    ],
+    "domains": [
+      "chemistry"
+    ],
+    "description": "Compiles standardised reaction descriptions into code that drives a modular robot, so published syntheses run without manual reprogramming.",
+    "doi": "10.1126/science.aav2211",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1126/science.aav2211",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 5,
+    "source_url": "https://doi.org/10.1126/science.aav2211",
+    "link_audit": "reviewed"
   },
   {
     "id": "bedard-2018-reconfigurable-system-chemical-reactions",
@@ -3647,9 +5092,45 @@
     "curation_note": "Science issue publication date and DOI verified against PubMed.",
     "related": [],
     "method_label": "",
-    "value_stars": 3,
+    "value_stars": 5,
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/30237351/",
     "link_audit": "pending"
+  },
+  {
+    "id": "networking-chemical-robots-for-reaction-multitasking",
+    "title": "Networking chemical robots for reaction multitasking",
+    "year": 2018,
+    "first_public_date": "2018-08-24",
+    "publication_date": "2018-08-24",
+    "venue": "Nature Communications",
+    "authors_display": "Dario Caramelli et al.",
+    "category": "systems",
+    "scope": "enabling",
+    "topics": [
+      "robotics",
+      "workflow-orchestration",
+      "lab-automation"
+    ],
+    "domains": [
+      "chemistry"
+    ],
+    "description": "Connects several chemical robots over a network so that reaction steps can be scheduled across platforms instead of inside one fixed machine.",
+    "doi": "10.1038/s41467-018-05828-8",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1038/s41467-018-05828-8",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1038/s41467-018-05828-8",
+    "link_audit": "reviewed"
   },
   {
     "id": "chemos-orchestrating",
@@ -3684,7 +5165,7 @@
     "related": [],
     "method_label": "ChemOS",
     "publication_date": "2018-06-20",
-    "value_stars": 3,
+    "value_stars": 5,
     "source_url": "https://doi.org/10.1126/scirobotics.aat5559",
     "link_audit": "reviewed"
   },
@@ -3720,9 +5201,81 @@
     "curation_note": "Verified publisher page and exact publication date.",
     "related": [],
     "method_label": "RSI",
-    "value_stars": 3,
+    "value_stars": 4,
     "source_url": "https://www.nature.com/articles/ncomms15733",
     "link_audit": "pending"
+  },
+  {
+    "id": "autonomy-in-materials-research-carbon-nanotube-growth",
+    "title": "Autonomy in materials research: a case study in carbon nanotube growth",
+    "year": 2016,
+    "first_public_date": "2016-10-21",
+    "publication_date": "2016-10-21",
+    "venue": "npj Computational Materials",
+    "authors_display": "Pavel Nikolaev et al.",
+    "category": "systems",
+    "scope": "core",
+    "topics": [
+      "closed-loop",
+      "active-learning",
+      "autonomous-planning"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "An early autonomous research system that plans, runs and interprets carbon nanotube growth experiments without a human deciding the next step.",
+    "doi": "10.1038/npjcompumats.2016.31",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1038/npjcompumats.2016.31",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1038/npjcompumats.2016.31",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "evolution-of-oil-droplets-in-a-chemorobotic-platform",
+    "title": "Evolution of oil droplets in a chemorobotic platform",
+    "year": 2014,
+    "first_public_date": "2014-12-08",
+    "publication_date": "2014-12-08",
+    "venue": "Nature Communications",
+    "authors_display": "Juan Manuel Parrilla Gutierrez et al.",
+    "category": "applications",
+    "scope": "core",
+    "topics": [
+      "robotics",
+      "autonomous-planning",
+      "closed-loop"
+    ],
+    "domains": [
+      "chemistry"
+    ],
+    "description": "An early chemorobotic platform that explores populations of oil droplets by running and evolving its own experiments.",
+    "doi": "10.1038/ncomms6571",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1038/ncomms6571",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1038/ncomms6571",
+    "link_audit": "reviewed"
   },
   {
     "id": "king-2009-the-automation-of-science",
@@ -3756,8 +5309,297 @@
     "curation_note": "Foundational robot-scientist work from the Science family; publication date verified via PubMed.",
     "related": [],
     "method_label": "Adam",
-    "value_stars": 3,
+    "value_stars": 5,
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/19342587/",
     "link_audit": "pending"
+  },
+  {
+    "id": "what-is-a-minimal-working-example-for-a-self-driving-laboratory",
+    "title": "What is a minimal working example for a self-driving laboratory?",
+    "year": 2022,
+    "first_public_date": null,
+    "publication_date": null,
+    "venue": "Matter",
+    "authors_display": "Sterling G. Baird & Taylor D. Sparks",
+    "category": "infrastructure",
+    "scope": "enabling",
+    "topics": [
+      "closed-loop",
+      "lab-automation"
+    ],
+    "domains": [
+      "cross-domain"
+    ],
+    "description": "Argues that a self-driving laboratory can be demonstrated with very little hardware, and defines the smallest closed loop that still counts as one.",
+    "doi": "10.1016/j.matt.2022.11.007",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.matt.2022.11.007",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1016/j.matt.2022.11.007",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "toward-autonomous-laboratories-ai-and-experimental-automation",
+    "title": "Toward autonomous laboratories: Convergence of artificial intelligence and experimental automation",
+    "year": 2023,
+    "first_public_date": null,
+    "publication_date": null,
+    "venue": "Progress in Materials Science",
+    "authors_display": "Yunchao Xie et al.",
+    "category": "surveys",
+    "scope": "core",
+    "topics": [
+      "closed-loop",
+      "active-learning",
+      "robotics"
+    ],
+    "domains": [
+      "materials",
+      "chemistry"
+    ],
+    "description": "Reviews the convergence of artificial intelligence and experimental automation and maps the components a laboratory needs before the experiment loop can close.",
+    "doi": "10.1016/j.pmatsci.2022.101043",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.pmatsci.2022.101043",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1016/j.pmatsci.2022.101043",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "llms-for-porous-materials-text-mining-to-autonomous-laboratory",
+    "title": "Large language models for porous materials: from text mining to autonomous laboratory",
+    "year": 2026,
+    "first_public_date": null,
+    "publication_date": null,
+    "venue": "Digital Discovery",
+    "authors_display": "Seunghee Han et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "llm-agents",
+      "data-management",
+      "lab-automation"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Reviews how language models mine the porous-materials literature for synthesis knowledge and feed it into autonomous laboratory workflows.",
+    "doi": "10.1039/d5dd00578g",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1039/d5dd00578g",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 3,
+    "source_url": "https://doi.org/10.1039/d5dd00578g",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "llm-for-knowledge-synthesis-and-ai-enhanced-biomanufacturing",
+    "title": "Large language model for knowledge synthesis and AI-enhanced biomanufacturing",
+    "year": 2025,
+    "first_public_date": null,
+    "publication_date": null,
+    "venue": "Trends in Biotechnology",
+    "authors_display": "Wenyu Li et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "llm-agents",
+      "data-management",
+      "lab-automation"
+    ],
+    "domains": [
+      "biology"
+    ],
+    "description": "Reviews language-model approaches to consolidating biomanufacturing knowledge and their use in AI-assisted bioprocess development.",
+    "doi": "10.1016/j.tibtech.2025.02.008",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.tibtech.2025.02.008",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 3,
+    "source_url": "https://doi.org/10.1016/j.tibtech.2025.02.008",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "autonomous-laboratories-for-accelerated-materials-discovery-survey",
+    "title": "Autonomous laboratories for accelerated materials discovery: a community survey and practical insights",
+    "year": 2024,
+    "first_public_date": null,
+    "publication_date": null,
+    "venue": "Digital Discovery",
+    "authors_display": "Linda Hung et al.",
+    "category": "surveys",
+    "scope": "enabling",
+    "topics": [
+      "benchmarking",
+      "lab-automation",
+      "autonomous-planning"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "Reports a community survey of automation and autonomy in materials laboratories and proposes an L0-L5 scale for describing how autonomous a laboratory really is.",
+    "doi": "10.1039/d4dd00059e",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1039/d4dd00059e",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1039/d4dd00059e",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "automated-ph-adjustment-robotic-workflows-active-learning",
+    "title": "Automated pH Adjustment Driven by Robotic Workflows and Active Machine Learning",
+    "year": 2023,
+    "first_public_date": null,
+    "publication_date": null,
+    "venue": "Chemical Engineering Journal",
+    "authors_display": "A. Pomberger et al.",
+    "category": "methods",
+    "scope": "enabling",
+    "topics": [
+      "active-learning",
+      "robotics",
+      "closed-loop"
+    ],
+    "domains": [
+      "chemistry"
+    ],
+    "description": "Uses active machine learning to choose each pH adjustment in a robotic workflow, replacing a fixed calibration curve.",
+    "doi": "10.1016/j.cej.2022.139099",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.cej.2022.139099",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 3,
+    "source_url": "https://doi.org/10.1016/j.cej.2022.139099",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "automated-biomateriomics-platform-for-programmable-materials",
+    "title": "An automated biomateriomics platform for sustainable programmable materials discovery",
+    "year": 2022,
+    "first_public_date": null,
+    "publication_date": null,
+    "venue": "Matter",
+    "authors_display": "Nicolas A. Lee et al.",
+    "category": "systems",
+    "scope": "enabling",
+    "topics": [
+      "lab-automation",
+      "closed-loop",
+      "active-learning"
+    ],
+    "domains": [
+      "biology",
+      "materials"
+    ],
+    "description": "An automated platform that couples biomaterial synthesis with characterisation to search for programmable, sustainable materials.",
+    "doi": "10.1016/j.matt.2022.10.003",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.matt.2022.10.003",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 3,
+    "source_url": "https://doi.org/10.1016/j.matt.2022.10.003",
+    "link_audit": "reviewed"
+  },
+  {
+    "id": "a-self-driving-laboratory-for-adhesive-materials-discovery",
+    "title": "A self-driving laboratory designed to accelerate the discovery of adhesive materials",
+    "year": 2022,
+    "first_public_date": null,
+    "publication_date": null,
+    "venue": "Digital Discovery",
+    "authors_display": "Michael B. Rooney et al.",
+    "category": "applications",
+    "scope": "core",
+    "topics": [
+      "closed-loop",
+      "bayesian-optimization",
+      "lab-automation"
+    ],
+    "domains": [
+      "materials"
+    ],
+    "description": "A self-driving laboratory that prepares and tests adhesive bonds robotically while an optimizer steers the formulation search.",
+    "doi": "10.1039/d2dd00029f",
+    "arxiv_id": null,
+    "links": {
+      "paper": "https://doi.org/10.1039/d2dd00029f",
+      "pdf": null,
+      "code": null,
+      "project": null,
+      "dataset": null
+    },
+    "added_at": "2026-10-11",
+    "curation_note": null,
+    "related": [],
+    "method_label": "",
+    "value_stars": 4,
+    "source_url": "https://doi.org/10.1039/d2dd00029f",
+    "link_audit": "reviewed"
   }
 ]
