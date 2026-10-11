@@ -1,0 +1,47 @@
+{
+  "categories": {
+    "surveys": "Surveys & Perspectives",
+    "methods": "Algorithms & Methods",
+    "systems": "Autonomous Systems",
+    "infrastructure": "Infrastructure & Software",
+    "applications": "Applications & Discoveries",
+    "benchmarks": "Benchmarks & Evaluation"
+  },
+  "topics": {
+    "closed-loop": "Closed-loop Experimentation",
+    "bayesian-optimization": "Bayesian Optimization",
+    "active-learning": "Active Learning",
+    "design-of-experiments": "Design of Experiments",
+    "multi-objective-optimization": "Multi-objective Optimization",
+    "reinforcement-learning": "Reinforcement Learning",
+    "autonomous-planning": "Autonomous Planning",
+    "human-in-the-loop": "Human-in-the-loop",
+    "robotics": "Laboratory Robotics",
+    "robot-manipulation": "Robot Manipulation",
+    "embodied-ai": "Embodied AI",
+    "instrument-control": "Instrument Control",
+    "lab-automation": "Laboratory Automation",
+    "workflow-orchestration": "Workflow Orchestration",
+    "data-management": "Data Management",
+    "llm-agents": "LLM Agents",
+    "benchmarking": "Benchmarking",
+    "scientific-simulation": "Scientific Simulation",
+    "ai-experiment-agents": "AI Experiment Agents",
+    "protocol-planning": "Protocol Planning",
+    "computational-experiments": "Computational Experiments",
+    "gene-editing": "Gene Editing"
+  },
+  "domains": {
+    "chemistry": "Chemistry",
+    "materials": "Materials Science",
+    "biology": "Biology & Biotech",
+    "energy": "Energy",
+    "physics": "Physics",
+    "computer-science": "Computer Science",
+    "cross-domain": "Cross-domain"
+  },
+  "scopes": {
+    "core": "Core SDL",
+    "enabling": "Enabling Technology"
+  }
+}

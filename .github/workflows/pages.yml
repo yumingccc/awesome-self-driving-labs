@@ -1,0 +1,38 @@
+# The repository publishes the pre-built site/ directory.
+#
+# tools/ is not uploaded, so this workflow does not build anything: regenerate
+# the site locally before pushing, with
+#
+#     python tools/validate.py && python tools/build.py
+#
+# and commit the updated site/ alongside data/papers.json.
+name: Deploy static site
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy
+        if: github.event_name != 'pull_request'
+        uses: actions/deploy-pages@v4

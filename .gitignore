@@ -1,0 +1,87 @@
+# ---------------------------------------------------------------------------
+# Awesome Self-Driving Labs · files excluded from version control
+#
+# The published site is generated locally by tools/build.py and committed
+# under site/. The generator, the maintainer documentation and the scratch
+# index are kept out of the public repository.
+# ---------------------------------------------------------------------------
+
+# Maintainer-only material, deliberately not published.
+tools/
+DATA_SCHEMA.md
+LINK_AUDIT.md
+PAPERS.md
+CHANGELOG.md
+CONTRIBUTING.md
+
+# macOS Finder and filesystem metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Python packaging and virtual environments
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+
+# Coverage and profiling output
+.coverage
+.coverage.*
+htmlcov/
+*.prof
+
+# Node, if a JS toolchain is ever added
+node_modules/
+.npm/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# Local secrets and machine-specific config
+.env
+.env.*
+!.env.example
+*.local
+.claude/settings.local.json
+.local/
+
+# Logs, caches and scratch directories
+*.log
+.cache/
+.tmp/
+tmp/
+scratch/
