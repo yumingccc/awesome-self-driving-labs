@@ -199,7 +199,6 @@ body{font-size:16px;}
 .about-hero>p:last-child{font-size:17px;line-height:1.6;max-width:750px;}
 @media(max-width:1100px){.listing-head h1{font-size:clamp(33px,5vw,54px);}.collection-stamp{min-width:125px;}}
 @media(max-width:760px){.listing-head h1{white-space:normal;letter-spacing:-2px;font-size:clamp(40px,8vw,53px);}.listing-head h1 em{letter-spacing:-1.8px;}.listing-head p{font-size:15px;}.listing-hero{padding-top:45px;}.about-hero h1{font-size:clamp(38px,9vw,60px);}}
-.preprint-note{font-weight:500;color:#758b7b;font-size:11px;}
 .paper-card{gap:0;}
 .category-tile{gap:16px;}
 .paper-title{line-height:1.52;}
@@ -258,14 +257,12 @@ body{font-size:16px;}
 .paper-card-compact .topic-row{margin-bottom:11px;}
 @media(max-width:760px){.paper-card .topic-row{margin-bottom:10px;}}
 .paper-card .topic,.paper-card-compact .topic{font-size:11px;font-weight:650;padding:4px 8px;letter-spacing:.1px;}
-
 /* Repository link sitting immediately after the site name in the header. */
 .brand-group{display:flex;align-items:center;gap:9px}
 .brand-repo{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:6px;color:#8ba094;transition:color .18s,background .18s}
 .brand-repo:hover{color:var(--accent);background:#e9f0e9}
 .brand-repo .ico{width:17px;height:17px}
 @media(max-width:760px){.brand-group{gap:6px}.brand-repo{width:26px;height:26px}.brand-repo .ico{width:16px;height:16px}}
-
 /* Five-star research value scale: slightly smaller stars so the badge keeps its width. */
 .value-stars{gap:1.5px;padding:4px 7px}
 .star-svg{width:13px;height:13px}
